@@ -1,0 +1,21 @@
+.contenedor-counter {
+  min-width: 300px;
+  height: 100px;
+  border: 8px solid white;
+  padding: 150px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 120px;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  .contenedor-counter {
+    padding: 50px;
+  }
+}
